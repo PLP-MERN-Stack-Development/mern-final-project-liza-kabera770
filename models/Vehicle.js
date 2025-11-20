@@ -1,0 +1,20 @@
+const mongoose = require("mongoose");
+
+const vehicleSchema = new mongoose.Schema(
+  {
+    plateNumber: String,
+    model: String,
+    capacity: Number,
+    status: { type: String, default: "active" },
+
+    // NEW:
+    assignedDriver: { 
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Driver",
+      default: null 
+    }
+  },
+  { timestamps: true }
+);
+
+module.exports = mongoose.model("Vehicle", vehicleSchema);

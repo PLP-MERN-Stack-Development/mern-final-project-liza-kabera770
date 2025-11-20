@@ -1,52 +1,70 @@
-# MERN Stack Capstone Project
+# Getting Started with Create React App
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Assignment Overview
+## Available Scripts
 
-You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+In the project directory, you can run:
 
-## Getting Started
+### `npm start`
 
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Files Included
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- `Week8-Assignment.md`: Detailed assignment instructions
+### `npm test`
 
-## Requirements
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
+### `npm run build`
 
-## Project Ideas
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Submission
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+### `npm run eject`
 
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Resources
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

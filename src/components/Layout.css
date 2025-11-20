@@ -1,0 +1,44 @@
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar {
+  background: #1a237e;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.layout-body {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 220px;
+  background: #283593;
+  padding: 20px;
+  color: white;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.layout-content {
+  flex: 1;
+  padding: 20px;
+  background: #f3f4f6;
+}
